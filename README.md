@@ -10,5 +10,7 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=ixpr_php-project-45&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=ixpr_php-project-45)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=ixpr_php-project-45&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=ixpr_php-project-45)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=ixpr_php-project-45&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=ixpr_php-project-45)
-### asciicast
+### asciicast: brain game even
 [![asciicast](https://asciinema.org/a/2BNDSnzVyWNNkISZHviEDZMr7.svg)](https://asciinema.org/a/2BNDSnzVyWNNkISZHviEDZMr7)
+### asciicast: brain game calc
+[![asciicast](https://asciinema.org/a/Tc6f1IoE7pbbDOXmki1Zdp1fT.svg)](https://asciinema.org/a/Tc6f1IoE7pbbDOXmki1Zdp1fT)
