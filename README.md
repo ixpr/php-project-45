@@ -14,3 +14,5 @@
 [![asciicast](https://asciinema.org/a/2BNDSnzVyWNNkISZHviEDZMr7.svg)](https://asciinema.org/a/2BNDSnzVyWNNkISZHviEDZMr7)
 ### asciicast: brain game calc
 [![asciicast](https://asciinema.org/a/Tc6f1IoE7pbbDOXmki1Zdp1fT.svg)](https://asciinema.org/a/Tc6f1IoE7pbbDOXmki1Zdp1fT)
+### asciicast: brain game gcd
+[![asciicast](https://asciinema.org/a/FIWkJsmLMrQLMlKHWqxwm8Nxz.svg)](https://asciinema.org/a/FIWkJsmLMrQLMlKHWqxwm8Nxz)

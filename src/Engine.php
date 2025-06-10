@@ -14,6 +14,9 @@ function runGame(string $game)
         case 'calc':
             $task = Calc\getTask();
             break;
+        case 'gcd':
+            $task = Gcd\getTask();
+            break;
         default:
             return;
     }
@@ -32,6 +35,11 @@ function runGame(string $game)
             case 'calc':
                 $data = Calc\getData();
                 break;
+            case 'gcd':
+                $data = Gcd\getData();
+                break;
+            default:
+                return;
         }
         line("Question: %s", $data['question']);
         $answer = prompt('Your answer');
