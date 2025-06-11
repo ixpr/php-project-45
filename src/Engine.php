@@ -17,6 +17,9 @@ function runGame(string $game)
         case 'gcd':
             $task = Gcd\getTask();
             break;
+        case 'progression':
+            $task = Progression\getTask();
+            break;
         default:
             return;
     }
@@ -37,6 +40,9 @@ function runGame(string $game)
                 break;
             case 'gcd':
                 $data = Gcd\getData();
+                break;
+            case 'progression':
+                $data = Progression\getData();
                 break;
             default:
                 return;

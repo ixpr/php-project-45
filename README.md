@@ -16,3 +16,5 @@
 [![asciicast](https://asciinema.org/a/Tc6f1IoE7pbbDOXmki1Zdp1fT.svg)](https://asciinema.org/a/Tc6f1IoE7pbbDOXmki1Zdp1fT)
 ### asciicast: brain game gcd
 [![asciicast](https://asciinema.org/a/FIWkJsmLMrQLMlKHWqxwm8Nxz.svg)](https://asciinema.org/a/FIWkJsmLMrQLMlKHWqxwm8Nxz)
+### asciicast: brain game progression
+[![asciicast](https://asciinema.org/a/RKrnT0qLV4wRldjC3J56Vr7ah.svg)](https://asciinema.org/a/RKrnT0qLV4wRldjC3J56Vr7ah)
