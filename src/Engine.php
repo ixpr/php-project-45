@@ -20,6 +20,9 @@ function runGame(string $game)
         case 'progression':
             $task = Progression\getTask();
             break;
+        case 'prime':
+            $task = Prime\getTask();
+            break;
         default:
             return;
     }
@@ -43,6 +46,9 @@ function runGame(string $game)
                 break;
             case 'progression':
                 $data = Progression\getData();
+                break;
+            case 'prime':
+                $data = Prime\getData();
                 break;
             default:
                 return;

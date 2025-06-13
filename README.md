@@ -18,3 +18,5 @@
 [![asciicast](https://asciinema.org/a/FIWkJsmLMrQLMlKHWqxwm8Nxz.svg)](https://asciinema.org/a/FIWkJsmLMrQLMlKHWqxwm8Nxz)
 ### asciicast: brain game progression
 [![asciicast](https://asciinema.org/a/RKrnT0qLV4wRldjC3J56Vr7ah.svg)](https://asciinema.org/a/RKrnT0qLV4wRldjC3J56Vr7ah)
+### asciicast: brain game prime
+[![asciicast](https://asciinema.org/a/OrJ24vPaBaN5IOVkDBrMeWf5m.svg)](https://asciinema.org/a/OrJ24vPaBaN5IOVkDBrMeWf5m)
