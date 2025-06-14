@@ -2,12 +2,12 @@
 
 namespace BrainGames\Prime;
 
-function getTask()
+function getTask(): string
 {
     return 'Answer "yes" if given number is prime. Otherwise answer "no".';
 }
 
-function getData()
+function getData(): array
 {
     $question = rand(1, 99);
     $answer = processAnswer(isPrime($question));
@@ -15,12 +15,12 @@ function getData()
     return ['question' => $question, 'answer' => $answer];
 }
 
-function processAnswer(bool $bool)
+function processAnswer(bool $bool): string
 {
     return $bool === true ? 'yes' : 'no';
 }
 
-function isPrime(int $number)
+function isPrime(int $number): bool
 {
     if ($number < 2) {
         return false;

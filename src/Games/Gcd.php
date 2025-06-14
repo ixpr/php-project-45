@@ -2,28 +2,28 @@
 
 namespace BrainGames\Gcd;
 
-function getTask()
+function getTask(): string
 {
     return 'Find the greatest common divisor of given numbers.';
 }
 
-function getData()
+function getData(): array
 {
     $expression = [rand(1, 99), rand(1, 99)];
     $question = implode(' ', $expression);
     $answer = getResult($expression);
 
-    return ['question' => $question, 'answer' => $answer];
+    return ['question' => $question, 'answer' => (string) $answer];
 }
 
-function getResult(array $expression)
+function getResult(array $expression): int
 {
     [$number1, $number2] = $expression;
 
     return getGcd($number1, $number2);
 }
 
-function getGcd(int $a, int $b)
+function getGcd(int $a, int $b): int
 {
-    return ($a % $b) ? getGcd($b, $a % $b) : abs($b);
+    return ($a % $b > 0) ? getGcd($b, $a % $b) : abs($b);
 }

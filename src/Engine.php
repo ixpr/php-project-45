@@ -5,7 +5,7 @@ namespace BrainGames;
 use function cli\line;
 use function cli\prompt;
 
-function runGame(string $game)
+function runGame(string $game): void
 {
     switch ($game) {
         case 'even':
@@ -55,7 +55,7 @@ function runGame(string $game)
         }
         line("Question: %s", $data['question']);
         $answer = prompt('Your answer');
-        if ($data['answer'] != $answer) {
+        if ($data['answer'] !== $answer) {
             line("'%s' is wrong answer ;(. Correct answer was '%s'.", $answer, $data['answer']);
             line("Let's try again, %s!", $name);
             return;
